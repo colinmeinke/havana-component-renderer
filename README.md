@@ -1,5 +1,6 @@
 # Havana component renderer
 
+[![NPM version](https://badge.fury.io/js/havana-component-renderer.svg)](http://badge.fury.io/js/havana-component-renderer)
 [![Build Status](https://travis-ci.org/colinmeinke/havana-component-renderer.svg?branch=master)](https://travis-ci.org/colinmeinke/havana-component-renderer)
 [![Dependency status](https://david-dm.org/colinmeinke/havana-component-renderer.svg)](https://david-dm.org/colinmeinke/havana-component-renderer.svg)
 
