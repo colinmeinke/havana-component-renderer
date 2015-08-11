@@ -21,7 +21,7 @@ gulp.task( 'lint', function () {
 });
 
 gulp.task( 'compileServer', [ 'lint' ], function () {
-  return gulp.src([ './lib/renderer.js' ])
+  return gulp.src( './lib/renderer.js' )
     .pipe( babel({
       'stage': 0,
     }))
