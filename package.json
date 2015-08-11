@@ -1,0 +1,56 @@
+{
+  "name": "havana-component-renderer",
+  "version": "0.1.0",
+  "description": "A component renderer",
+  "main": "dist/renderer.server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": {
+    "name": "Colin Meinke",
+    "email": "hello@colinmeinke.com",
+    "url": "colinmeinke.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/colinmeinke/havana-component-renderer.git"
+  },
+  "keywords": [
+    "component",
+    "es2015",
+    "handlebars",
+    "handler",
+    "havana",
+    "HTML",
+    "isomorphic",
+    "renderer",
+    "response",
+    "universal"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "4.0.x",
+    "babelify": "6.1.x",
+    "browserify": "11.0.x",
+    "chai": "3.2.x",
+    "gulp": "3.9.x",
+    "gulp-babel": "5.1.x",
+    "gulp-concat": "2.6.x",
+    "gulp-derequire": "2.1.x",
+    "gulp-eslint": "0.15.x",
+    "gulp-insert": "0.5.x",
+    "gulp-mocha": "2.1.x",
+    "gulp-rename": "1.2.x",
+    "handlebars": "3.0.x",
+    "havana-event": "0.x",
+    "havana-server": "0.x",
+    "havana-static": "0.x",
+    "vinyl-source-stream": "1.1.x"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "2.1.x"
+  },
+  "browser": {
+    "dist/renderer.server.js": "dist/renderer.browser.js"
+  }
+}
